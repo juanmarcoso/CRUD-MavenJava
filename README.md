@@ -42,8 +42,8 @@ Para compilar y ejecutar el proyecto, es necesario tener instalado Maven y Java.
 ```sh
 Bash
 
-mvn clean package
-mvn exec:java -Dexec.mainClass="juan.Main"
+mvn clean compile
+mvn exec:java
 ```
 
 ## Autor
